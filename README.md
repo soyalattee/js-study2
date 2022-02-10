@@ -1,5 +1,6 @@
 # JS 스터디
-
+드림코딩의 Javascript 기초강의(ES5+) 참고 
+파이썬챌린지의 실습문제 풀이
 ## 1주차
 
 
@@ -36,8 +37,8 @@
 
 
 -22.02.10  
-드림코딩 3번 영상 내용 질문 받기
 
+- 드림코딩 3번 영상 내용 질문 받기
 - Dynamic Typing(js는 런타임에서 타입이 설정)
 - number, string, boolean, infinity, NaN, -infinity, null, undefined
 
