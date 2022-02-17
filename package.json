@@ -15,5 +15,16 @@
     "readline-sync": "1.4.10",
     "utf8": "^3.0.0",
     "xo": "0.47.0"
-  }
+  },	"xo": {
+		"space": true,
+    "capitalized-comments": [
+      "error",
+      "always",
+      {
+          "ignoreInlineComments": true,
+          "ignoreConsecutiveComments": true
+      }
+  ]
+	}
+
 }
