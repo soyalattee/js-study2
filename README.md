@@ -1,8 +1,9 @@
 # JS 스터디
-드림코딩의 Javascript 기초강의(ES5+) 참고(https://www.youtube.com/watch?v=wcsVjmHrUQg&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2)   
-파이썬챌린지의 실습문제 풀이
-## 1주차
 
+드림코딩의 Javascript 기초강의(ES5+) 참고(https://www.youtube.com/watch?v=wcsVjmHrUQg&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2)  
+파이썬챌린지의 실습문제 풀이
+
+## 1주차
 
 -22.01.27
 
@@ -22,7 +23,6 @@
 
 ## 2주차
 
-
 -22.02.03
 
 - 01~11 문제 풀이
@@ -35,8 +35,7 @@
 
 ## 3주차
 
-
--22.02.10  
+-22.02.10
 
 - 드림코딩 3번 영상 내용 질문 받기
 - Dynamic Typing(js는 런타임에서 타입이 설정)
@@ -74,3 +73,9 @@
 
 ## 4주차 ( 02.17 예정)
 
+-22.02.17
+
+- for 문
+- switch 문
+
+멘티 과제 : 실습 문제 27~44 풀어오기(Math 함수, For 문 활용), 드림코딩 5번 영상 (함수)
