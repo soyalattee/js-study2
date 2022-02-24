@@ -15,7 +15,7 @@ console.log(` ${users} 입니다`);
 //26번 a e u i o
 const str = question("단어를 입력하세요...");
 if (
-   str.charAt(0) == "a" ||
+  str.charAt(0) == "a" ||
   str.charAt(0) == "e" ||
   str.charAt(0) == "u" ||
   str.charAt(0) == "i" ||

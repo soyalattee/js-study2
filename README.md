@@ -82,3 +82,16 @@
 - Math 함수
 
 멘티 과제 : 실습 문제 27~44 풀어오기(Math 함수, For 문 활용), 드림코딩 5번 영상 (함수)
+
+## 5주차
+
+-22.02.24
+
+- slice() 와 substring()
+- 함수와 콜백함수
+- foreach 문
+- '==' 와 '==='
+- while 문 (for 문 과 차이)
+
+멘티 과제 : 실습 문제 45 ~ 49 풀어오기(While문, Math.random() 활용), 드림코딩 6번 영상(class and Object),드림코딩 5번 영상의 function Quiz 구현하기!  
+멘토 과제 : 드림코딩 5번 영상의 function Quiz 구현하기!
