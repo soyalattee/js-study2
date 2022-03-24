@@ -111,5 +111,27 @@
 - '==' 와 '==='
 - while 문 (for 문 과 차이)
 
-멘티 과제 : 실습 문제 45 ~ 49 풀어오기(While문, Math.random() 활용), 드림코딩 6번 영상(class and Object),드림코딩 5번 영상의 function Quiz 구현하기!  
+멘티 과제 : 실습 문제 45 ~ 59 풀어오기(While문, Math.random() 활용), 드림코딩 6번 영상(class and Object),드림코딩 5번 영상의 function Quiz 구현하기!  
 멘토 과제 : 드림코딩 5번 영상의 function Quiz 구현하기!
+
+## 6주차
+
+-22.03.04
+
+## 7주차
+
+과제 : 드림코딩7.object 시청 , 문제 : 69 ~ 79 , turtle.js 색 채우는 방법을 찾아보아요!
+
+## 8주차
+
+-22.03.24
+
+- array API
+- map() 과 filter() 차이
+- string API
+- object
+- for in 과 for of
+- value 와 reference
+
+과제 : 드림코딩 10강, 기초 1  
+? : object 와 function 관련 학습강의 서칭

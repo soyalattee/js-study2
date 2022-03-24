@@ -55,10 +55,10 @@ import { question } from "readline-sync";
 
 const num = 1.1818181818;
 const cutnumber = question("몇째로 자를까요");
-//셋째자리 컷 내림 1.181
+//셋째자리 컷 내림 1.1
 const chageNum = fixedLow(num, cutnumber);
 
-function fixedLow(number, count) {
+function fixedLow(number, count) { 100, 1000, 10000
   const result = Math.floor(number * Math.pow(10, count)) / Math.pow(10, count);
   return result;
 }

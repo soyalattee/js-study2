@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 그림이 그려질 영역 -->
+    <canvas id="real-turtle"></canvas>
+    <script src="https://unpkg.com/real-turtle"></script>
+    <script src="https://unpkg.com/real-turtle/build/helpers/simple.js"></script>
+    <script>
+      // 여기서 시작
+      // for (let i = 0; i < 8; i++) {
+      //   turtle.setStrokeColorRGB(0, 255, 255);
+      //   turtle.forward(50).right(45);
+      // }
+      const lines = Math.floor(Math.random() * 10);
+
+      for (let i = 0; i < lines; i++) {
+        const length = Math.floor(Math.random() * 25) + 1;
+        const rotate = Math.floor(Math.random() * 365) + 1;
+      }
+
+      turtle.setFillStyle("#FFA500");
+
+      turtle.arc(100, 360, false);
+      turtle.fill();
+    </script>
+  </body>
+</html>

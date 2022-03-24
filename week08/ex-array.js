@@ -1,5 +1,5 @@
-'use strict';
-import { question, questionInt } from 'readline-sync';
+"use strict";
+import { question, questionInt } from "readline-sync";
 
 //69
 
@@ -137,19 +137,81 @@ import { question, questionInt } from 'readline-sync';
 // console.log(programs);
 
 //79
-const nums = [];
+// const nums = [];
+
+// while (true) {
+//   const userNum = questionInt('숫자를 입력하세요');
+//   nums.push(userNum);
+
+//   if (nums.length >= 3) {
+//     const deleteNum = question('마지막 숫자를 저장하시겠습니까?(y/n)');
+//     if (deleteNum === 'n') {
+//       nums.pop();
+//       console.log(nums);
+//       break;
+//     }
+//   }
+//   console.log(nums);
+// }
+
+// const subject = question("좋아하는 과목 영어로 입력: ");
+// let subjectString = "";
+// for (let i = 0; i < subject.length; i++) {
+//   subjectString += `${subject.charAt(i)}-`;
+//   subjectString = subjectString + `${subject.charAt(i)}-`;
+//   // console.log(`${subject.charAt(i)}-`);
+// }
+// console.log(subjectString);
+
+// const word = question("영어 단어 입력: ");
+// const result = word.slice(0, 2).toUpperCase() + word.slice(2);
+// console.log(result);
+// const name = "zxcvzxcvzcx";
+// const count1 = (null || []).length;
+// console.log(count1);
+
+// const array = name.split("");
+
+// const newArray = array.map(el => {
+//   return el + "90";
+// });
+
+// console.log(newArray);
+
+// const pass1 = "asdf";
+// const pass2 = "ASDF";
+
+// if (pass1 === pass2) {
+//   console.log("Thank you");
+// } else if (pass1.toUpperCase() === pass2.toUpperCase()) {
+//   console.log("They must be in the same case");
+// } else {
+//   console.log("Incorrect");
+// }
+
+let party = [];
+for (let i = 0; i++; i < 3) {
+  party.push(question("파티에 초대할 이름 입력: "));
+}
 
 while (true) {
-  const userNum = questionInt('숫자를 입력하세요');
-  nums.push(userNum);
-
-  if (nums.length >= 3) {
-    const deleteNum = question('마지막 숫자를 저장하시겠습니까?(y/n)');
-    if (deleteNum === 'n') {
-      nums.pop();
-      console.log(nums);
-      break;
-    }
+  const addName = question("추가할 사람이 있나요?(y/n) ");
+  if (addName === "y") {
+    const newName = question("파티에 초대할 사람 추가 입력: ");
+    party.push(newName);
+  } else if (addName === "n") {
+    console.log(`파티에 초대한 사람은 총 ${party.length}명`);
+    break;
   }
-  console.log(nums);
+  console.log(party);
 }
+
+const user1 = question("배열에 이름중 하나 입력: ");
+const index = party.indexOf(user1);
+const user2 = question(
+  `이름: ${user1}, 인덱스 번호: ${index} 를 정말 파티에 초대할거야? (y/n) `
+);
+if (user2 === "n") {
+  party.splice(index, 1);
+}
+console.log(`전체 초대된 사람들 목록은 [${party}] 이다`);
