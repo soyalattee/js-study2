@@ -132,6 +132,7 @@
 - object
 - for in 과 for of
 - value 와 reference
+- 정규식..
 
 과제 : 드림코딩 10강, 기초 1  
 ? : object 와 function 관련 학습강의 서칭
