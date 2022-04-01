@@ -136,3 +136,13 @@
 
 과제 : 드림코딩 10강, 기초 1  
 ? : object 와 function 관련 학습강의 서칭
+
+## 9주차
+
+-22.04.01
+
+- json, json.stringify와 json.stringify
+- object
+- object Computed Property Name 쓰는 예시
+
+멘티 과제 : fetch() 관련 강의 공유 드리기(이번주 까지!)
