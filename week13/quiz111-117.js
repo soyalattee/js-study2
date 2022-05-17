@@ -85,9 +85,29 @@ async function quiz116() {
   bookList.forEach((value, idx) => {
     console.log(value);
   });
-  let idx = questionInt("which record does you wanna remeve ?");
   // 제거
+  let idx = questionInt("which record does you wanna remeve ?");
+  bookList.splice(idx + 1, 1);
+
+  writeFile("./assets/Books.csv", bookList.join("\n"), (err) => {
+    if (err) throw err;
+    console.log("file saved!");
+  });
+
+  let newBookData = await readFile(path, "utf-8", (err, data) => {
+    return data;
+  });
+  console.log(bookList);
+
   // 수정 (해당 인덱스에 덮어쓰기)
+  idx = questionInt("which record does you wanna edit ?");
+  console.log(bookList[idx + 1]);
+  let content = question("edit the content");
+  bookList.splice(idx + 1, 1, content);
+  writeFile("./assets/Books.csv", bookList.join("\n"), (err) => {
+    if (err) throw err;
+    console.log("file saved!");
+  });
 }
 
 let score = 0;
